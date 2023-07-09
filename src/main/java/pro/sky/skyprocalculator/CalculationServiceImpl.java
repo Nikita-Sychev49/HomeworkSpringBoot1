@@ -3,7 +3,7 @@ package pro.sky.skyprocalculator;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CalculationsService {
+public class CalculationServiceImpl implements CalculationService {
     public String plus(int number1, int number2) {
         return number1 + " + " + number2 + " = " + (number1 + number2);
     }
